@@ -39,7 +39,7 @@ fn main() {
                 num3,
                 letters[char8 as usize],
                 letters[char9 as usize],
-                num2,
+                num4,
             );
             break;
         }
