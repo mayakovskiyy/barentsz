@@ -17,7 +17,6 @@ fn main() {
     let mut char9: u8 = rand::random();
     loop{
         if char1 > 70 || char2 > 70 || char3 > 70 || char4 > 70 || char5 > 70 || char6 > 70 || char7 > 70 || char8 > 70 || char9 > 70 {
-            println!("BarentszPassGenSystem: error 1000. Index out of range. Trying again...");
             char1 = rand::random();
             char2 = rand::random();
             char3 = rand::random();
