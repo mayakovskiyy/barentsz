@@ -2,7 +2,6 @@ use rand::prelude::*;
 
 fn main() {
     let letters = ['A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z', '!', '?', '/', '@', '#', '$', '%', ':', '^', '&', '*', '(', ')', '_', '-', '+', '=', '~', '`'];
-    let mut char0: u8 = rand::random();
     let mut char1: u8 = rand::random();
     let mut char2: u8 = rand::random();
     let mut char3: u8 = rand::random();
@@ -26,6 +25,9 @@ fn main() {
             char7 = rand::random();
             char8 = rand::random();
             char9 = rand::random();
+            num2 = rand::random();
+            num3 = rand::random();
+            num4 = rand::random();
         }
         else {
             println!("{}{}{}{}{}{}{}{}{}{}{}{}",
