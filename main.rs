@@ -1,6 +1,8 @@
 use rand::prelude::*;
 
 fn main() {
+    
+    // needs to optimize ↓↓↓
     let letters = ['A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z', '!', '?', '/', '@', '#', '$', '%', ':', '^', '&', '*', '(', ')', '_', '-', '+', '=', '~', '`'];
     let mut char1: u8 = rand::random();
     let mut char2: u8 = rand::random();
@@ -10,12 +12,14 @@ fn main() {
     let mut char6: u8 = rand::random();
     let mut char7: u8 = rand::random();
     let mut char8: u8 = rand::random();
+    let mut char9: u8 = rand::random();
     let mut num2: u8 = rand::random();
     let mut num3: u8 = rand::random();
     let mut num4: u8 = rand::random();
-    let mut char9: u8 = rand::random();
+    
     loop{
         if char1 > 70 || char2 > 70 || char3 > 70 || char4 > 70 || char5 > 70 || char6 > 70 || char7 > 70 || char8 > 70 || char9 > 70 {
+        // needs to optimize ↓↓↓
             char1 = rand::random();
             char2 = rand::random();
             char3 = rand::random();
