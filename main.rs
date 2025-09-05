@@ -30,7 +30,7 @@ fn main() {
             num4 = rand::random();
         }
         else {
-            println!("BarentszPassGen [SUCCESFUL]: {}{}{}{}{}{}{}{}{}{}{}{}",
+            println!("BarentszPassGen [SUCCESFUL], exit code 0: {}{}{}{}{}{}{}{}{}{}{}{}",
                 letters[char1 as usize],
                 num2, letters[char2 as usize],
                 letters[char3 as usize],
